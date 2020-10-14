@@ -1,4 +1,4 @@
-class Restaurant
+class RestaurantName
 
 Attributes:
 is_open? (Boolean)
@@ -7,7 +7,7 @@ dinner_menu (Array)
 server_name (String)
 
 Methods:
-is_open? (uses is_open? if restaurnt is open, then is_open? true and is Restaurant is closed, is_open? is changed to false)
+is_open? (uses is_open? if restaurant is open, then is_open? true and is Restaurant is closed, is_open? is changed to false)
 add_number_of_reservations(uses number_of_reservations and increases the number_of_reservations)
 choose_dish (uses dinner_menu and picks one dish from a list of dinner dishes)
 prints_server_name (uses server_name and prints in all caps)
