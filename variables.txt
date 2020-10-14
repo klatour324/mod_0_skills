@@ -1,0 +1,9 @@
+food = "chocolate"
+is_delicious = true
+food = "strawberry"
+num2 = 16
+num7 = 100
+quotient = num7 / num2
+songs = ["Nutshell", "Dirt", "Man in The Box"]
+songs.shift
+food.length
