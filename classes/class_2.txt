@@ -1,0 +1,13 @@
+class DinningRoom
+
+Attributes:
+is_busy? (Boolean)
+number_of_tables (Integer)
+shifts_available (Array)
+server_greeting (String)
+
+Methods:
+is_busy? (Checks to see if DinningRoom is_busy returns true if busy, false if not)
+remove_table (uses number_of_tables and subtracts from number_of_tables)
+add_shifts (uses shifts_available and adds open shifts)
+prints_server_greeting (uses server_greeting and says a friendly message to guest with exclamation)
