@@ -1,0 +1,13 @@
+instance: House of Glunz Main Foyer
+
+Attributes:
+is_busy? = false
+number_of_tables = 22
+shifts_available = ["2pm", "4:30pm", "7pm"]
+server_greeting = "Welcome to House of Glunz"
+
+Methods:
+is_busy? false
+remove_table 22 - 1 = 21
+add_shifts ["5pm", "6:30pm"]
+prints_server_greeting "Welcome to House of Glunz!"
