@@ -1,13 +1,13 @@
 instance: Olive Garden
 
 Attributes:
-is_open? = true
+open = true
 number_of_reservations = 40
 dinner_menu = ["Spaghetti", "Fettuccine Alfredo", "Salad"]
 server_name = "Holly"
 
 Methods:
-is_open? true
-add_number_of_reservations 40 + 6
+is_open = true
+add_reservations: number_of_reservations = 46
 choose_dish ["Spaghetti"]
 prints_server_name "HOLLY"
